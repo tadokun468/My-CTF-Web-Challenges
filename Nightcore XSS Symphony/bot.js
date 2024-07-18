@@ -16,7 +16,6 @@ function sleep(s) {
 }
 
 const initBrowser = puppeteer.launch({
-    //executablePath: "/usr/bin/chromium-browser",
     executablePath: "/usr/bin/chromium-browser",
     headless: true,
     args: [

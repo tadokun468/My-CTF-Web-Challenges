@@ -5,7 +5,7 @@ const { JSDOM } = require("jsdom");
 const path = require("path");
 const rateLimit = require("express-rate-limit")
 const bot = require("./bot");
-const { error } = require("console");
+
 const app = express();
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.urlencoded({ extended: false }));
